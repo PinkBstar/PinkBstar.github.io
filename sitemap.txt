@@ -1,8 +1,7 @@
-http://pinkbstar.github.io/2022/07/09/hello-world/
+http://pinkbstar.github.io/2022/07/11/Ant%20Design%20Pro%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/
 http://pinkbstar.github.io/link/index.html
 http://pinkbstar.github.io/categories/index.html
 http://pinkbstar.github.io/tags/index.html
 http://pinkbstar.github.io/
-http://pinkbstar.github.io/tags/test/
-http://pinkbstar.github.io/tags/first/
-http://pinkbstar.github.io/categories/hello/
+http://pinkbstar.github.io/tags/Ant-Design-Pro/
+http://pinkbstar.github.io/categories/%E5%89%8D%E7%AB%AF/

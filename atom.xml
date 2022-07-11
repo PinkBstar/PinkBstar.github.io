@@ -6,7 +6,7 @@
   <link href="http://pinkbstar.github.io/atom.xml" rel="self"/>
   
   <link href="http://pinkbstar.github.io/"/>
-  <updated>2022-07-11T07:57:41.700Z</updated>
+  <updated>2022-07-11T11:09:40.763Z</updated>
   <id>http://pinkbstar.github.io/</id>
   
   <author>
@@ -17,28 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://pinkbstar.github.io/2022/07/09/hello-world/"/>
-    <id>http://pinkbstar.github.io/2022/07/09/hello-world/</id>
-    <published>2022-07-09T15:03:09.798Z</published>
-    <updated>2022-07-11T07:57:41.700Z</updated>
+    <title>Ant Design Pro使用指南</title>
+    <link href="http://pinkbstar.github.io/2022/07/11/Ant%20Design%20Pro%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/"/>
+    <id>http://pinkbstar.github.io/2022/07/11/Ant%20Design%20Pro%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</id>
+    <published>2022-07-11T08:20:21.754Z</published>
+    <updated>2022-07-11T11:09:40.763Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p><em><strong>自用方法</strong></em></p><p><em><strong>自用方法</strong></em></p><p><em><strong>自用方法</strong></em></p><hr><p>官方文档：<a href="https://pro.ant.design/zh-CN/docs/getting-started/">https://pro.ant.design/zh-CN/docs/getting-started/</a></p><h1 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 使用 npm</span></span><br><span class="line">npm i @ant-design/pro-cli -g</span><br><span class="line">pro create myapp</span><br></pre></td></tr></table></figure><p>选择 umi 的版本</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">? 🐂 使用 umi@4 还是 umi@3 ? (Use arrow keys)</span><br><span class="line">   umi@4</span><br><span class="line">❯  umi@3</span><br></pre></td></tr></table></figure><blockquote><p>官方文档里的箭头放在了umi@4上，但是在我的配置过程中发现umi@4就是陷阱，一旦选择了umi@4就到不了选择是简易脚手架还是全量的脚手架。（纯菜鸟，完全不懂官方的那句引用是什么意思）</p><p><img src="/Users/liqizhang/blog/themes/butterfly/source/img/screenshot/AntDesignPro.png" alt="image-AntDesignPro"></p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">? 🚀 要全量的还是一个简单的脚手架? (Use arrow keys)</span><br><span class="line">❯ simple</span><br><span class="line">  complete</span><br></pre></td></tr></table></figure><p>安装依赖：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> myapp &amp;&amp; tyarn</span><br><span class="line">// 或</span><br><span class="line">$ <span class="built_in">cd</span> myapp &amp;&amp; npm install</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;自用方法&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;自用方法&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;自用方法&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;官方文档：&lt;a href=&quot;http</summary>
       
     
     
     
-    <category term="hello" scheme="http://pinkbstar.github.io/categories/hello/"/>
+    <category term="前端" scheme="http://pinkbstar.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
-    <category term="test" scheme="http://pinkbstar.github.io/tags/test/"/>
-    
-    <category term="first" scheme="http://pinkbstar.github.io/tags/first/"/>
+    <category term="Ant Design Pro" scheme="http://pinkbstar.github.io/tags/Ant-Design-Pro/"/>
     
   </entry>
   
