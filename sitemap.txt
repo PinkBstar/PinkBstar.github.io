@@ -1,0 +1,8 @@
+http://pinkbstar.github.io/2022/07/09/hello-world/
+http://pinkbstar.github.io/link/index.html
+http://pinkbstar.github.io/categories/index.html
+http://pinkbstar.github.io/tags/index.html
+http://pinkbstar.github.io/
+http://pinkbstar.github.io/tags/test/
+http://pinkbstar.github.io/tags/first/
+http://pinkbstar.github.io/categories/hello/
